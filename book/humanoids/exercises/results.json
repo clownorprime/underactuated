@@ -1,0 +1,35 @@
+{
+    "tests": [
+        {
+            "name": "Tests that binaries imply correctly the positioning of the feet",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "M is: [2.8 1.  2.8 1. ]\nOptimization result: SolutionResult.kSolutionFound\nM is: [2.8 1.  2.8 1. ]\nOptimization result: SolutionResult.kSolutionFound\n\nTest Failed: \nArrays are not strictly ordered `x < y`\nSolving the problem for terrain_A, the binary variable stone_left[8, 1] is one but the left foot is not in stone 1 at time 8.\nMismatched elements: 1 / 4 (25%)\nMax absolute difference among violations: 1.89000005\nMax relative difference among violations: 2.07692313\n x: array([ 2.800000e+00, -3.264256e-12, -2.800000e+00,  3.264256e-12])\n y: array([ 0.91,  0.01, -0.69,  0.51])\n"
+        },
+        {
+            "name": "Tests that the positioning of the feet minimized the sum of the",
+            "score": 4,
+            "max_score": 4,
+            "status": "passed",
+            "output": "M is: [2.8 1.  2.8 1. ]\nOptimization result: SolutionResult.kSolutionFound\nM is: [2.8 1.  2.8 1. ]\nOptimization result: SolutionResult.kSolutionFound\n"
+        },
+        {
+            "name": "Tests that a foot is assigned to a single stepping stone",
+            "score": 3,
+            "max_score": 3,
+            "status": "passed",
+            "output": "M is: [2.8 1.  2.8 1. ]\nOptimization result: SolutionResult.kSolutionFound\nM is: [2.8 1.  2.8 1. ]\nOptimization result: SolutionResult.kSolutionFound\n"
+        },
+        {
+            "name": "Tests the constraints on the relative position of the feet",
+            "score": 4,
+            "max_score": 4,
+            "status": "passed",
+            "output": "M is: [2.8 1.  2.8 1. ]\nOptimization result: SolutionResult.kSolutionFound\nM is: [2.8 1.  2.8 1. ]\nOptimization result: SolutionResult.kSolutionFound\n"
+        }
+    ],
+    "leaderboard": [],
+    "execution_time": "5.84",
+    "score": 11.0
+}
